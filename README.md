@@ -14,7 +14,6 @@ It covers modules related to:
 The aim is to provide hands-on experience with security techniques used to protect digital communication.
 
 ---
-## 📁 Project Structure
 
 Networksecurity/
 │
