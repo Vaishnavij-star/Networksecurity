@@ -15,8 +15,9 @@ The aim is to provide hands-on experience with security techniques used to prote
 
 ---
 ## 📁 Project Structure
-'''
+
 Networksecurity/
+```
 │
 ├── app.py
 ├── main.py
@@ -41,4 +42,5 @@ Networksecurity/
 ├── test.csv
 │
 └── README.md
-'''
+```
+
