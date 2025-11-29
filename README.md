@@ -1,29 +1,43 @@
-### Network Security Projects For Phising Data
-
-Setup github secrets:
-AWS_ACCESS_KEY_ID=
-
-AWS_SECRET_ACCESS_KEY=
-
-AWS_REGION = us-east-1
-
-AWS_ECR_LOGIN_URI = 788614365622.dkr.ecr.us-east-1.amazonaws.com/networkssecurity
-ECR_REPOSITORY_NAME = networkssecurity
 
 
-Docker Setup In EC2 commands to be Executed
-#optinal
+# 🔐 Network Security Project
 
-sudo apt-get update -y
+## 📌 Overview
+This project focuses on practical implementation and understanding of core **Network Security** concepts.  
+It covers modules related to:
 
-sudo apt-get upgrade
+- Firewall & Packet Filtering
+- Encryption and Decryption
+- Intrusion Detection System (IDS)
+- Network Attacks & Prevention Mechanisms
 
-#required
+The aim is to provide hands-on experience with security techniques used to protect digital communication.
 
-curl -fsSL https://get.docker.com -o get-docker.sh
+---
+## 📁 Project Structure
 
-sudo sh get-docker.sh
-
-sudo usermod -aG docker ubuntu
-
-newgrp docker
+Networksecurity/
+│
+├── app.py
+├── main.py
+├── push_data.py
+├── test_mongodb.py
+├── config_entity.py
+├── artifact_entity.py
+├── model_trainer.py
+├── data_ingestion.py
+├── data_transformation.py
+├── data_validation.py
+├── training_pipeline.py
+├── utils.py
+│
+├── model.pkl
+├── preprocessing.pkl
+├── requirements.txt
+├── Dockerfile
+├── setup.py
+│
+├── train.csv
+├── test.csv
+│
+└── README.md
