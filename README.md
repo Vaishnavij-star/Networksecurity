@@ -16,10 +16,9 @@ The aim is to provide hands-on experience with security techniques used to prote
 ---
 ## 📁 Project Structure
 
-
-Networksecurity/
 ```
-│
+Networksecurity/
+|
 ├── app.py
 ├── main.py
 ├── push_data.py
@@ -32,18 +31,15 @@ Networksecurity/
 ├── data_validation.py
 ├── training_pipeline.py
 ├── utils.py
-│
+|
 ├── model.pkl
 ├── preprocessing.pkl
 ├── requirements.txt
 ├── Dockerfile
 ├── setup.py
-│
+|
 ├── train.csv
 ├── test.csv
-│
+|
 └── README.md
-
 ```
-
-
